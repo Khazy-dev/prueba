@@ -1,0 +1,33 @@
+* {
+    margin: 0; /*elimina margenes pretederminados general*/
+    padding: 0; /*elimina rellenos*/
+    font-family: Arial, Helvetica, sans-serif; /*establece las fuentes globales para todo el cuerpo de la pagina*/
+    font-size: 16px; /*tama;o de la letra*/
+}
+
+header {
+    background-color: bisque; /*color de fondo bisque*/
+    color: rgb(91, 147, 196); /*color de texto*/
+    padding: 15px; /*espacio interno*/
+    display: flex; /*organiza los elementos dentro del header*/
+    justify-content: space-between; /*distribuye los elementos externos del header*/
+    align-items: center; /*centra verticalmente los elementos dentro del header*/
+}
+
+h1 {
+    margin: 0; /*elimina margenes*/
+}
+
+nav ul {
+    list-style: none; /*elimina los estilos pretederminados (los puntos)*/
+    display: flex; /*se utiliza el flexbox para organizar los elementos en linea*/
+}
+
+nav li {
+    margin: 20px; /*agrega espacios entre los elementos del menu*/
+}
+
+a {
+    text-decoration: none;/*elimina el subrayado pretederminado*/
+    color: blueviolet; /*color del texto*/
+}
